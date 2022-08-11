@@ -1,0 +1,121 @@
+.main-header .logo{
+    font-family: "M PLUS 1p" !important;
+    background: #fff;
+    height: 70px;
+    width: 340px;
+    font-size: 25px;
+    line-height: 70px;
+    text-align: left;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "M PLUS 1p" !important;
+}
+span{
+    /*font-family: 'Roboto', sans-serif !important;*/
+}
+
+.skin-blue-light_ .main-header li.user-header{
+    background-color:#92c5eb;
+}
+
+.img-circle{
+    object-fit: fill;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1){
+    background-color: #f3f3f4 !important;
+}
+
+.f5_tab_top {
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    background: #82aada;
+    padding: 0 5px;
+}
+.f5_tab_top .f1 .f5_radio {
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 0;
+}
+/* The container */
+.f5_radio {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* Hide the browser's default radio button */
+.f5_radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.f5_radio:hover input ~ .checkmark {
+    background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.f5_radio input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.f5_radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.f5_radio .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fcbc86;
+}
+.f5_tab_top .f2 {
+    font-size: 18px;
+    color: #fff;
+    padding: 6px;
+    margin-bottom: 0;
+}
+.f5_tab_top .f2 span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.f5_page_nav .f5_tab_top {
+    background: transparent;
+}
+.f5_page_nav .f5_tab_top .f5_radio {
+    color: #659ad2;
+}

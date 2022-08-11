@@ -1,0 +1,114 @@
+.select2-dropdown {z-index: 9999 !important}
+
+	.bootstrap-timepicker-minute,.bootstrap-timepicker-hour,.bootstrap-timepicker-meridian,.bootstrap-timepicker-second {
+		width:50px !important;
+	}
+
+	::-webkit-scrollbar {
+	    width: 7px;
+	}
+
+	::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	    border-radius: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+	    border-radius: 10px;
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}	
+
+	.datepicker{z-index:1151 !important;}
+
+	.sidebar-menu .treeview-menu>li>a {
+		padding:5px 5px 5px 25px;
+	}
+	.form-tab li a:hover {
+		background: #eeeeee !important;
+	}
+	.form-tab li a.selected {
+		background: #3c8dbc !important;
+		color:#ffffff !important;
+	}
+	.alert_floating {
+		bottom:10px;
+		right:10px;
+		position: fixed;
+		z-index:1001;
+		background: rgba(255, 140, 127, 0.7);
+		color:#222222;
+		font-weight: bold;
+		padding:20px 50px 20px 50px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px #aaaaaa;
+	}
+
+	#table_dashboard {
+		font-size: 12px;
+	}
+
+	
+
+	.login-box-body {
+      box-shadow: 0px 0px 25px #999999;
+	}
+	
+
+	.pond-current-farm{
+		fill: #67a8bd !important;
+		background-color: #67a8bd;
+	}
+	.pond-other-farm{
+		fill: #faa544 !important;
+		background-color: #faa544;
+	}
+	.pond-has-been-created{
+		background-color: #5ca9dd;
+		fill: #5ca9dd !important;
+	}
+	.unregistered-pond{
+		fill: #B5B6B6;
+		background-color: #B5B6B6;
+	}
+	.st7{
+		fill: #A1CBED;
+		background: #A1CBED;
+	}
+
+	.f5_content {
+		width: 70%;
+		display: block;
+		background: #6C9BD2;
+	}
+
+	.f5_tab_status {
+		position: absolute;
+		/* top: 100px; */
+		right: 85px;
+		top: 128px;
+	}
+	.f5_tab_command {
+		position: absolute;
+		top: 100px;
+		left: 15px;
+	}
+	.f5_status {
+		padding-left: 0;
+	}
+	.f5_status li {
+		list-style: none;
+		font-size: 18px;
+		position: relative;
+		padding-left: 25px;
+		color: #fff;
+		margin-top:3px;
+		margin-bottom: 3px;
+	}
+	.f5_status li span {
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		border: 1px solid #fff;
+		position: absolute;
+		top: 3px;
+		left: 0;
+	}

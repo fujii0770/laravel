@@ -1,0 +1,585 @@
+.container_ {
+    background-color: #F3F3F4;
+    width: auto;
+    height: auto;
+}
+.top_ {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 2%;
+}
+.logo_ {
+    width: 15%;
+    height: auto;
+    text-align: center;
+    padding: 1% 3%;
+    background-color: #5FC9EC;
+    border-radius: 100vh;
+    color: snow;
+    font-weight: bold;
+    font-size: 110%;
+}
+ul_ {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: calc(100% - 200px);
+    list-style: none;
+}
+.li_ {
+    margin-top: 5px;
+    margin-right: 3%;
+}
+.m-btn-square-shadow {
+    display: inline-block;
+    width: 132%;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #5FC9EC;
+    color: snow;
+    border-bottom: solid 4px #3D9DB7;
+    border-radius: 3px;
+}
+.m-maru {
+    font-size: 120%;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #8CC5F4;
+    border-radius: 50%;
+    text-align: center;
+    color: snow;
+}
+.m-maru2 {
+    font-size: 120%;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: snow;
+    border: solid 1px;
+    border-color: #8CC5F4;
+    border-radius: 50%;
+    text-align: center;
+    color: #8CC5F4;
+}
+.section-middle {
+    background-color: snow;
+    padding: 10px;
+    margin: 3px;
+    border: solid;
+    border-color: #9ACCF4;
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+.green_line2 {
+    font-size: 300%;
+    width: 50%;
+    text-align: left;
+    margin: 5% 10% 0% 10%;
+    padding-left: 17px;
+    font-weight: 500;
+    color: #3A3A3A;
+    background: linear-gradient(transparent 50%, #2CC69E 0%);
+}
+.ike img {
+    padding: 10%;
+    width: 100%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+}
+.midashi2 {
+    margin-right: 10%;
+    margin-top: 5px;
+    font-size: 150%;
+    font-weight: 600;
+    text-align: right;
+    color: #0C73BA;
+}
+.line {
+    height: 2px;
+    width: 78%;
+    background-color: #0C73BA;
+    border: none;
+}
+.waku2 {
+    display: flex;
+    font-size: 150%;
+    padding: 10px;
+    color: #3A3A3A;
+}
+.contentA {
+    width: 40%;
+    padding: 2px;
+}
+.waku2 span {
+    font-size: 150%;
+    font-weight: 700;
+}
+.contentB {
+    width: 60%;
+    padding: 2px;
+}
+.waku3 {
+    display: flex;
+    font-size: 150%;
+    color: #3A3A3A;
+}
+
+.content1 {
+    width: 20%;
+    padding: 2px;
+}
+
+.content2 span {
+    font-size: 180%;
+    font-weight: 700;
+}
+.content3 {
+    width: 40%;
+    padding: 2px;
+}
+.symbol_j {
+    margin-left: 4%;
+    color: snow;
+    text-align: center;
+    font-size: 70%;
+    width: 30%;
+    margin-top: 7%;
+    padding: 1%;
+    background-color: #39B556;
+    border-radius: 100vh;
+}
+.waku4 {
+    margin-left: -0.3%;
+    display: flex;
+    font-size: 120%;
+    text-align: center;
+    padding: 10px;
+    color: #3A3A3A;
+}
+
+.waku4 span {
+    font-size: 190%;
+    font-weight: 700;
+    padding: 10px;
+}
+.button-b {
+    margin-top: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 90%;
+    width: 80%;
+    padding: 5% 10%;
+    background-color: #0C73BA;
+    border-radius: 100vh;
+}
+.contentSp {
+    width: 25%;
+    padding: 2px;
+}
+.contentSu {
+    width: 25%;
+    padding: 2px;
+}
+.contentAu {
+    width: 25%;
+    padding: 2px;
+}
+.contentWi {
+    width: 25%;
+    padding: 2px;
+    margin-top: 7%;
+}
+a {
+    text-decoration: none;
+}
+.button-r {
+    color: snow;
+    font-size: 120%;
+    width: 50%;
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    text-align: center;
+    background-color: #DB2E3A;
+    border-radius: 100vh;
+}
+.ebinarabe {
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ebinarabe img {
+    width: 7%;
+}
+.red_line2 {
+    font-size: 100%;
+    width: 50%;
+    text-align: center;
+    margin: 10% 10%;
+    font-weight: 600;
+    color: #3A3A3A;
+    background: linear-gradient(transparent 50%, #ff7f7f 0%);
+}
+.container_ {
+    background-color: #F3F3F4;
+    width: auto;
+    height: auto;
+}
+.top_ {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 2%;
+}
+.logo_ {
+    width: 15%;
+    height: auto;
+    text-align: center;
+    padding: 1% 3%;
+    background-color: #5FC9EC;
+    border-radius: 100vh;
+    color: snow;
+}
+ul_ {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: calc(100% - 200px);
+    list-style: none;
+}
+.li_ {
+    margin-top: 5px;
+    margin-right: 3%;
+}
+.m-btn-square-shadow {
+    display: inline-block;
+    width: 120%;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #5FC9EC;
+    color: snow;
+    border-bottom: solid 4px #3D9DB7;
+    border-radius: 3px;
+}
+.m-maru {
+    font-size: 120%;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #8CC5F4;
+    border-radius: 50%;
+    text-align: center;
+    color: snow;
+}
+.m-maru2 {
+    font-size: 120%;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: snow;
+    border: solid 1px;
+    border-color: #8CC5F4;
+    border-radius: 50%;
+    text-align: center;
+    color: #8CC5F4;
+}
+.section-middle {
+    background-color: snow;
+    padding: 10px;
+    margin: 3px;
+    border: solid;
+    border-color: #9ACCF4;
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+.green_line2 {
+    font-size: 300%;
+    width: 50%;
+    text-align: left;
+    margin: 5% 10% 0% 10%;
+    padding-left: 17px;
+    font-weight: 500;
+    color: #3A3A3A;
+    background: linear-gradient(transparent 60%, #2CC69E 0%);
+}
+.ike img {
+    padding: 10%;
+    width: 100%;
+    margin-left: 0%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+}
+.midashi2 {
+    margin-top: 5px;
+    font-size: 150%;
+    font-weight: 600;
+    text-align: right;
+    color: #0C73BA;
+}
+.line {
+    height: 2px;
+    
+    background-color: #0C73BA;
+    border: none;
+}
+.waku2 {
+    display: flex;
+    font-size: 150%;
+    padding: 10px;
+    color: #3A3A3A;
+}
+.contentA {
+    width: 40%;
+    padding: 2px;
+}
+.waku2 span {
+    font-size: 150%;
+    font-weight: 700;
+}
+.contentB {
+    width: 60%;
+    padding: 2px;
+}
+.waku3 {
+    display: flex;
+    font-size: 150%;
+    color: #3A3A3A;
+}
+
+.content1 {
+    width: 20%;
+    padding: 2px;
+}
+.content2 {
+    margin-top: 1%;
+    width: 30%;
+    text-align: center;
+    padding: 2px;
+}
+.content2 span {
+    font-size: 180%;
+    font-weight: 700;
+}
+.content3 {
+    width: 40%;
+    padding: 2px;
+}
+.symbol_j {
+    color: snow;
+    text-align: center;
+    font-size: 70%;
+    width: 30%;
+    margin-top: 7%;
+    padding: 1%;
+    background-color: #39B556;
+    border-radius: 100vh;
+}
+
+.orange_line2 {
+    font-size: 100%;
+    width: 45%;
+    text-align: center;
+    margin: 5% 5%;
+    font-weight: 600;
+    color: #3A3A3A;
+    background: linear-gradient(transparent 50%, #F4BA38 0%);
+}
+
+.button-b-m {
+    color: snow;
+    font-size: 100%;
+    width: 100%;
+    margin: 5% 20% 5% 20%;
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    background-color: #0C73BA;
+    border-radius: 100vh;
+}
+.button-b {
+    margin-top: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 90%;
+    width: 80%;
+    padding: 5% 10%;
+    background-color: #0C73BA;
+    border-radius: 100vh;
+}
+.contentSp {
+    width: 25%;
+    padding: 2px;
+}
+.contentSu {
+    width: 25%;
+    padding: 2px;
+}
+.contentAu {
+    width: 25%;
+    padding: 2px;
+}
+.contentWi {
+    width: 25%;
+    padding: 2px;
+    margin-top: 5.25%;
+}
+a {
+    text-decoration: none;
+}
+.button-r {
+    color: snow;
+    font-size: 120%;
+    width: 50%;
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    text-align: center;
+    background-color: #DB2E3A;
+    border-radius: 100vh;
+}
+.ebinarabe {
+    margin-top: 16%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ebinarabe img {
+    width: 7%;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+.section_last__item_m {
+    width: 100%;
+    background-color: snow;
+    padding: 0px;
+    margin: 1px;
+    border: solid;
+    border-color: #9ACCF4;
+    border-radius: 10px;
+    scroll-snap-align: start;
+}
+.midashi3 {
+    padding: 10px;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: center;
+    color: #0C73BA;
+}
+.waku_chukan {
+    display: flex;
+    padding: 10px;
+    color: #3A3A3A;
+}
+.symbol_chukan_j {
+    
+    color: snow;
+    text-align: center;
+    font-size: 100%;
+    width: 30%;
+    margin: 5%;
+    margin-top: 20px;
+    padding: 5%;
+    background-color: #39B556;
+    border-radius: 100vh;
+}
+.kaisu {
+    padding: 5px;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.kaisu span {
+    font-size: 270%;
+    font-weight: 700;
+}
+.red_line3 {
+    font-size: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 10% 10%;
+    font-weight: 600;
+    color: #3A3A3A;
+    background: linear-gradient(transparent 50%, #ff7f7f 0%);
+}
+.c_uriage {
+    margin-top: -20px;
+    padding: 5px;
+    font-size: 100%;
+    text-align: center;
+}
+.c_uriage span {
+    font-size: 170%;
+    font-weight: 600;
+}
+.gyokan {
+    margin: 10px;
+    margin-left: 15%;
+}
+.button-r-m {
+    color: snow;
+    font-size: 100%;
+    width: 100%;
+    margin: 5% 20% 5% 20%;
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    background-color: #DB2E3A;
+    border-radius: 100vh;
+}
+.symbol_chukan_k {
+    
+    color: snow;
+    text-align: center;
+    font-size: 100%;
+    width: 30%;
+    margin: 5%;
+    margin-top: 20px;
+    padding: 5%;
+    background-color: #E561C9;
+    border-radius: 100vh;
+}
+.gcm{
+    font-size: 15px;
+    margin-top: -6%;
+    margin-left: -14%;
+}

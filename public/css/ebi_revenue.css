@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    background-color: #F3F3F4;
+    width: auto;
+    height: auto;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column--l {
+    width: 40%;
+    padding-left: 5px;
+}
+.midashi {
+    font-size: 25px;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.column--r {
+    width: 60%;
+    padding: 10px;
+}
+.image2 {
+    margin: 3%;
+    position: relative;
+}
+.image2 p {
+    position: absolute;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: #3A3A3A;
+    top: 13%;
+    left: 38%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+img, abbr, acronym, fieldset {
+    border: 0;
+    vertical-align: middle;
+}
+.image {
+    position: relative;
+    text-align: center;
+}
+.p2{
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #3A3A3A;
+    top: 10%;
+    left: 48%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    padding: 10px;
+}
+.image p {
+    position: absolute;
+    font-size: 6vw;
+    font-weight: 500;
+    color: snow;
+    top: 26%;
+    left: 48%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.tate {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    background-color: #58CC63;
+    color: snow;
+    padding: 125px 18px;
+    margin: 13px;
+    float: left;
+}
+.wrapper_ {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 30% 30% 30% 30%;
+    gap: 8px;
+    padding: 10px;
+    margin-top: 9px;
+}
+.waku {
+    display: flex;
+    background-color: snow;
+    border: #000;
+    font-size: 100%;
+    font-weight: 600;
+    padding: 0px 3px;
+}
+.contentA {
+    width: 25%;
+    padding: 2px;
+    z-index: 2;
+}
+.contentB {
+    width: 75%;
+    padding: 3px;
+    z-index: 3;
+}
+.ebi_midashi {
+    font-size: 50%;
+    font-weight: 900;
+    color: #E55C38;
+    padding-top: 10px;
+    float: left;
+}
+.ebi_reito {
+    font-size: 50%;
+    font-weight: 900;
+    color: #00A3F0;
+    padding-top: 10px;
+    float: left;
+}
+.title1 {
+    font-size: 50%;
+    font-weight: 500;
+    padding: 5px;
+    float: left;
+}
+.title2_red {
+    font-size: 50%;
+    font-weight: 500;
+    background-color: #E55C38;
+    color: snow;
+    padding: 3px;
+    float: left;
+}
+.title2_blue {
+    font-size: 50%;
+    font-weight: 500;
+    background-color: #0066ff;
+    color: snow;
+    padding: 3px;
+    float: left;
+}
+.col-md-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+}
+.p3 {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #3A3A3A;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    padding: 10px;
+}
+.p4 {
+    position: absolute;
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #3A3A3A;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.p5 {
+    position: absolute;
+    font-size: 1.1vw;
+    border-color: #0d6efd!important;
+    border: 1px solid ;
+    font-weight: 100;
+    color: #3A3A3A;
+    top: 29%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.table_>thead>tr>td{
+    border-color: #0d6efd;
+}
+
+.table_>tbody>tr>td {
+    border-color: #0d6efd;
+}
+.p6 {
+    position: absolute;
+    font-size: 1.1vw;
+    font-weight: 100;
+    color: #3A3A3A;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.p7 {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #3A3A3A;
+    top: 83%;
+    left: 35%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
